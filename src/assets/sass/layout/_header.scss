@@ -1,0 +1,90 @@
+body{
+    background:#E4F7E8 !important ;
+}
+.login-container{
+  
+  margin-top: 120px !important;
+  box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.3);
+  width: 50%;
+}
+
+.top-nav {
+    height: 56px !important;
+  }
+  .search-dark {
+    background: transparent !important;
+    border: 1px solid black !important;
+    height: 30px;
+  }
+  .notification {
+    font-size: 26px;
+  }
+  .chat{
+    font-size: 20px;
+  }
+  .btn-close {
+    background-color:white !important;
+  }
+  #sidebar-nav {
+    width: 250px !important;
+    height: 100vh;
+    background: #1B4242  !important;
+    color: white;
+  }
+  .offcanvas-backdrop {
+    display: none !important;
+  }
+  .bg-blue {
+    background-color:#033939;
+    color: white;
+  }
+  .list-unstyled li a {
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Keep the original text color */
+    padding-bottom: 40px !important;
+  }
+  .list li:hover {
+    background: #E4F7E8;
+    border-radius: 8px;
+    color: black;
+    font-weight: 500;
+  }
+  .list li {
+    padding: 0px 0px 0px 8px;
+  }
+  
+  @media (min-width: 768px) {
+    main {
+      margin-left: 270px;
+    }
+    .btn-close {
+      display: none;
+    }
+    body {
+      overflow: auto !important;
+    }
+    #sidebar-nav {
+      transform: none !important;
+      visibility: visible !important;
+    }
+    .side-nav-close {
+      display: none !important;
+    }
+  }
+
+  // forgot password
+  .fpcontainer{
+    background-color: #1B4242;
+    box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.3);
+  }
+
+ 
+  
+  @media (max-width: 768px) {
+    * {
+      font-size: 14px;
+    }
+    .Profile-name {
+      display: none;
+    }
+  }

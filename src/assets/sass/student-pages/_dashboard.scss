@@ -1,0 +1,88 @@
+.mrg-left {
+    font-weight: 500;
+    margin-top: 60px;
+}
+.m-left{
+  margin-left: 40px;
+}
+
+.Welcome{
+    box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    padding: 20px;
+    padding-bottom: 30px;
+    background-color:#17453c;
+    color: white;
+}
+.heh{
+    font-weight: 700;
+}
+.status{
+    width: 70px;
+    margin-left: 30px;
+}
+.ccontent{
+    line-height: 10px;       
+}
+.box-width{
+  width: 190px;
+}
+.racourse{
+    box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.3);
+      padding-top: 10px;
+      padding-left: 10px;
+      padding-right: 10px;
+      width: fit-content;
+      background-color:#348172;
+      color:white;
+      margin-left: 13px;
+}
+.cimg{
+    height: 200px;
+    }
+    .date-flex{
+      display: flex;
+     justify-content: space-between !important;
+     margin-right: 10px;
+     line-height: 20px; 
+     color: rgb(81, 81, 81);
+    }
+    .prog{
+      height: 5px !important;
+    }
+    .mright{
+      margin-left: 10px;
+    }
+    .card{
+      box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.3) ;
+    }
+    .d-flex1{
+      display: flex;
+      justify-content: space-between;
+    }
+    .codeenter{
+      background-color:#348172;
+      color: #fff;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.3) ;
+    }
+    .coursecard , .card-title{
+      text-decoration: none;
+    
+    }
+    .card:hover{
+      transform: scale(1.01);
+    }
+    .footlearn{
+        background-color: #348172 !important;
+        margin-top: 20px;
+        bottom: 0 !important;
+    }
+// course card
+@media(min-width:768px){
+    .mrg-left{
+        margin-left: 240px;
+        margin-right: 10px;
+    }
+}
