@@ -2,11 +2,11 @@ import React, { useState , useEffect } from 'react';
 import { FaEdit } from "react-icons/fa";
 import { MdDelete } from "react-icons/md";
 import { Button, Card ,Row ,Col, Container } from 'react-bootstrap';
-import  Editcard from '../../../../src/Components/AdminComponents/AdCourseManagement/CouresEdit';
-import Addcard from '../../../../src/Components/AdminComponents/AdCourseManagement/CourseAdd';
+import  Editcard from '../../../Components/AdminComponents/AdCourseManagement/CouresEdit';
+import Addcard from '../../../Components/AdminComponents/AdCourseManagement/CourseAdd';
 import { useDispatch, useSelector } from 'react-redux';
-import { getCourseFromJson , removeCourseFromJson, setSelectedCourse} from '../../../../src/Slice/Courseslice';
-import DeleteModal from '../../../../src/Components/AdminComponents/AdCourseManagement/CourseDelete';
+import { getCourseFromJson , removeCourseFromJson, setSelectedCourse} from '../../../Slice/Courseslice';
+import DeleteModal from '../../../Components/AdminComponents/AdCourseManagement/CourseDelete';
 
 function CourseCard() {
     const [modalShow2, setModalShow2] = useState(false);
