@@ -1,11 +1,11 @@
-import {Routes,Route, BrowserRouter } from 'react-router-dom';
+import {Routes,Route} from 'react-router-dom';
 import PAdDashboard from '../pages/admin-pages/PAdDashboard';
 import PAdManageUser from '../pages/admin-pages/PAdMangeUser';
 import PAdMangeCourse from '../pages/admin-pages/PAdManageCourse';
 import PAdReport from '../pages/admin-pages/PAdReport';
 import PAdProfile from '../pages/admin-pages/PAdProfile'
 import PAdHome from '../pages/admin-pages/PAdHome';
-import Addcourse from '../Components/AdminComponents/AdUsermanagement/AdCourse';
+
 
 
 function AdRouter() {

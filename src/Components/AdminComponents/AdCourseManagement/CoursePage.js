@@ -1,7 +1,7 @@
 import React, { useState , useEffect } from 'react';
 import { FaEdit } from "react-icons/fa";
 import { MdDelete } from "react-icons/md";
-import { Button, Card ,Row ,Col, Container } from 'react-bootstrap';
+import { Button ,Row ,Col, Container } from 'react-bootstrap';
 import  Editcard from '../../../Components/AdminComponents/AdCourseManagement/CouresEdit';
 import Addcard from '../../../Components/AdminComponents/AdCourseManagement/CourseAdd';
 import { useDispatch, useSelector } from 'react-redux';
@@ -16,7 +16,7 @@ function CourseCard() {
   
     const dispatch = useDispatch(); 
 
-    const { courseSet, error, selectedCourse } = useSelector((state) => state.courses);
+    const { courseSet } = useSelector((state) => state.courses);
     
     const Editcourse = (course) => {
         setModalShow2(true);
