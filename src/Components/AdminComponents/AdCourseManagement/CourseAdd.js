@@ -6,7 +6,7 @@ import Modal from 'react-bootstrap/Modal';
 import Row from 'react-bootstrap/Row';
 import Form from 'react-bootstrap/Form';
 import { useDispatch } from 'react-redux';
-import { addCourseToJson } from '../../../../../LMS-project/src/Slice/Courseslice';
+import { addCourseToJson } from '../../../Slice/Courseslice';
 
 function Addcard(props) {
   const dispatch = useDispatch();

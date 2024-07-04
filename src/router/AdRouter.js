@@ -1,10 +1,10 @@
 import {Routes,Route, BrowserRouter } from 'react-router-dom';
-import PAdDashboard from '../../src/pages/admin-pages/PAdDashboard';
-import PAdManageUser from '../../src/pages/admin-pages/PAdMangeUser';
-import PAdMangeCourse from '../../src/pages/admin-pages/PAdManageCourse';
-import PAdReport from '../../src/pages/admin-pages/PAdReport';
-import PAdProfile from '../../../LMS-project/src/pages/admin-pages/PAdProfile'
-import PAdHome from '../../src/pages/admin-pages/PAdHome';
+import PAdDashboard from '../pages/admin-pages/PAdDashboard';
+import PAdManageUser from '../pages/admin-pages/PAdMangeUser';
+import PAdMangeCourse from '../pages/admin-pages/PAdManageCourse';
+import PAdReport from '../pages/admin-pages/PAdReport';
+import PAdProfile from '../pages/admin-pages/PAdProfile'
+import PAdHome from '../pages/admin-pages/PAdHome';
 import Addcourse from '../Components/AdminComponents/AdUsermanagement/AdCourse';
 
 
